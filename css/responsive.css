@@ -1,0 +1,153 @@
+/* Mobile */
+@media (max-device-width : 640px) {
+
+  /* Styles */
+  /* h1 */
+  h1 {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  /* p */
+  p, strong {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* h4 */
+  h4 {
+    font-size: 25px;
+  }
+
+  /* Container */
+  .container, header {
+    width: 100%;
+  }
+
+  /* nav */
+  .main-nav {
+    display: none;
+  }
+
+  .res-flex {
+    width: 100%;
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+
+  .res-flex ul {
+    padding: 0;
+  }
+
+  .res-flex .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* banner container */
+  .banner-container {
+    background-image: none;
+    height: 18rem;
+    padding-top: 122px;
+  }
+
+  /* hero */
+  .inner-container {
+    align-items: center;
+  }
+
+  img.logo_hero {
+    width: 369px;
+  }
+
+  /* boutton decouvrir */
+  a.btn {
+    margin-top: 44px;
+    font-size: 17px;
+  }
+
+  .btn {
+    padding: 21px;
+  }
+
+  /* advantages */
+  .container-icones .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adv-img {
+    width: 100px;
+  }
+
+  /* promos */
+  .bandroll {
+    flex-direction: column;
+    font-size: 16px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .btn-promos {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  /* description */
+  .description p {
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  /* introduction */
+  .introduction {
+    text-align: justify;
+  }
+
+  /* Footer */
+  footer {
+    padding: 30px 0 50px;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  input[type=email], input[type=text], textarea, .btn-sub {
+    width: 100%;
+  }
+
+  .field, .btn-sub {
+    margin: 0;
+  }
+
+  .flex-article {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  /* products */
+  .single-product {
+    width: 100%;
+  }
+
+  .single-product p {
+    color: #575857;
+    padding: 10px;
+    text-align: left;
+    font-size: 17px;
+  }
+}
