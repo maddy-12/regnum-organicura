@@ -23,13 +23,6 @@ The fonts used are:
 
 There are two versions of the logo, a green version to represent the nature and the organic aspect of the products and a gold version that represent the luxury aspect. 
 
-![](C:\Users\Benaf\OneDrive\Bureau\logo.png)
-
-
-
-### The colors
-
-![](C:\Users\Benaf\OneDrive\Bureau\colors.PNG)
 
 
 
